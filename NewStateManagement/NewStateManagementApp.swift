@@ -12,6 +12,7 @@ struct NewStateManagementApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(DarkTheme())
         }
     }
 }
